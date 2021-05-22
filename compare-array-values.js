@@ -1,6 +1,6 @@
 // Tests the values of 2 same length arrays
 // Scores are earnt on which value is greater.
-function compareArrayValues(a, b) {
+compareArrayValues = (a, b) => {
   // This is our return array
   // Prefill it with the same init values of 0
   let score = new Array(2).fill(0);
@@ -19,4 +19,4 @@ function compareArrayValues(a, b) {
   }
 
   return score;
-}
+};
